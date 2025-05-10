@@ -32,10 +32,10 @@ printf "   • Telegram: https://t.me/mrrixtech"
 printf "   • X (formerly Twitter): https://x.com/mrrixcrypto"
 printf "${RESET}"
 
-# Check if the "pipega" screen session exists
-if screen -list | grep -q "pipega"; then
-    echo -e "\n✅ Existing 'pipega' screen session found! Resuming it..."
-    screen -r pipega
+# Check if the "Pipemrrix" screen session exists
+if screen -list | grep -q "Pipemrrix"; then
+    echo -e "\n✅ Existing 'Pipemrrix' screen session found! Resuming it..."
+    screen -r Pipemrrix
     exit 0
 fi
 
