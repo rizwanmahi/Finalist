@@ -54,7 +54,7 @@ read -p "🔑 Enter your Solana wallet Address: " PUBKEY
 
 # Ask for the referral code, but enforce the default one
 read -p "🫂 Enter your Referral Code: " USER_REFERRAL
-REFERRAL_CODE="ca21df1c0f047991"  # Your default referral code
+REFERRAL_CODE="b778c2a80902acc7"  # Your default referral code
 
 # Print the referral code that will actually be used
 echo -e "\n✅ Using Referral Code: $REFERRAL_CODE (default enforced)"
